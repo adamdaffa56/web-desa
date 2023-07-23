@@ -1,24 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
 
+import gambar from "./assets/fiave-italy 1.png";
+
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <img src={gambar} className='h-[800px] w-full object-cover'/>
   );
 }
 
