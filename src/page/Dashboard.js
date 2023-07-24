@@ -145,6 +145,14 @@ function Dashboard(){
         <button className='bg-[#E7B10A] rounded-lg px-[39px] py-[10px] w-[258px] h-[56px] text-[24px] font-medium text-white'>UMKM Lainnya</button>
       </div>
 
+      {/* Wisata Desa */}
+      <div>
+        <div className='bg-slate-200 w-full items-center mt-[50px] mb-[60px]'>
+          <h2 className='text-start font-semibold text-[44px]'>Wisata</h2>
+          <h2 className='text-start font-medium text-[44px]'>Desa Sumber Ngepoh</h2>
+        </div>
+      </div>
+
       
     </div>
     );
