@@ -1,6 +1,8 @@
 import gambar from "../assets/fiave-italy 1.png";
 import gambarContent from "../assets/Rectangle 3.png"
 
+import Footer from "../components/Footer";
+
 function Dashboard(){
     return(
     <div className=''>
@@ -151,7 +153,15 @@ function Dashboard(){
           <h2 className='text-start font-semibold text-[44px]'>Wisata</h2>
           <h2 className='text-start font-medium text-[44px]'>Desa Sumber Ngepoh</h2>
         </div>
+
+        <div className="flex justify-center mb-[90px]">
+          <img src={gambarContent}/>
+        </div>
       </div>
+      
+      {/* Footer */}
+      <Footer/>
+      
 
       
     </div>
