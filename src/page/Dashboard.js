@@ -16,7 +16,7 @@ const Dashboard = () => {
               </picture>
 
               <h1 class="mt-4 mb-2 text-xl font-bold font-poppins text-green">Judul Card di sini</h1>
-              <p class="text-sm text-gray-600 font-poppins text-green">
+              <p class="text-sm text-gray-600 font-poppins text-green line-clamp-3">
                 Keterangan pendek tentang card di sini. Biasanya panjangnya dua sampai tiga baris, biar terlihat rapi.
               </p>
       </div>
@@ -34,7 +34,7 @@ const Dashboard = () => {
               </picture>
 
               <h1 class="mt-4 mb-2 text-xl font-bold font-poppins text-cream">Judul Card di sini</h1>
-              <p class="text-sm text-gray-600 font-poppins text-cream">
+              <p class="text-sm text-gray-600 font-poppins text-cream line-clamp-3">
                 Keterangan pendek tentang card di sini. Biasanya panjangnya dua sampai tiga baris, biar terlihat rapi.
               </p>
       </div>

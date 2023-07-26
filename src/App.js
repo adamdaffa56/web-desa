@@ -12,13 +12,15 @@ import InformasiDetail from "./page/Informasi/Informasi";
 import UmkmDetail from "./page/UMKM/UMKM";
 import WisataDetail from "./page/Wisata/Wisata";
 
+import InformasiDesa from './page/admin/InformasiDesa';
+
 
 
 function App() {
   return (
     <div className='App'>
       <Routes>
-        <Route path="/" element={<Dashboard />}>
+        <Route path="/" element={<UMKMList />}>
           <Route index element={<Dashboard/>} />
           <Route path="login" element={<Login />} />
           <Route path="informasi" element={<InformasiList />}/>
@@ -28,6 +30,10 @@ function App() {
           <Route path="informasiDetail" element={<InformasiDetail/>}/>
           <Route path="umkmDetail" element={<UmkmDetail/>}/>
           <Route path="wisataDetail" element={<WisataDetail/>}/>
+        </Route>
+
+        <Route path="/admin" element={<InformasiDesa/>}>
+          <Route index element={<InformasiDesa/>} />
         </Route>
       </Routes>
     </div>
