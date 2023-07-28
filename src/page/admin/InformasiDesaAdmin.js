@@ -7,21 +7,21 @@ const InformasiDesa = () => {
             <div className="flex flex-col justify-start items-start">
                 <p className="font-medium text-[20px] text-cream font-poppins mb-[12px]">Tentang Desa</p>
                 <form action="" method="">
-                    <textarea rows = "5" cols = "180" name = "description" className=" p-[20px] bg-green border border-cream rounded-lg text-cream mb-[24px]">
+                    <textarea rows = "5" cols = "190" name = "description" className=" p-[20px] bg-green border border-cream rounded-lg text-cream mb-[24px]">
                         
                     </textarea>
                 </form>
 
                 <p className="font-medium text-[20px] text-cream font-poppins mb-[12px]">Visi</p>
                 <form action="" method="">
-                    <textarea rows = "5" cols = "180" name = "description" className=" p-[20px] bg-green border border-cream rounded-lg text-cream mb-[24px]">
+                    <textarea rows = "5" cols = "190" name = "description" className=" p-[20px] bg-green border border-cream rounded-lg text-cream mb-[24px]">
                         
                     </textarea>
                 </form>
 
                 <p className="font-medium text-[20px] text-cream font-poppins mb-[12px]">Misi</p>
                 <form action="" method="">
-                    <textarea rows = "5" cols = "180" name = "description" className=" p-[20px] bg-green border border-cream rounded-lg text-cream mb-[24px]">
+                    <textarea rows = "5" cols = "190" name = "description" className=" p-[20px] bg-green border border-cream rounded-lg text-cream mb-[24px]">
                         
                     </textarea>
                 </form>

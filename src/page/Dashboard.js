@@ -1,5 +1,7 @@
 import gambar from "../assets/fiave-italy 1.png";
-import gambarContent from "../assets/Rectangle 3.png"
+import gambarContent from "../assets/Rectangle 3.png";
+
+import logo from "../assets/logo malang.png";
 
 import FooterHijau from "../components/FooterHijau";
 
@@ -43,6 +45,10 @@ const Dashboard = () => {
 
     return(
     <div className=''>
+      <nav>
+        
+      </nav>
+
       {/* Hero */}
       <section id="home" className={'h-screen w-screen bg-[url(http://localhost:3000/hero.png)] bg-cover bg-center flex w-full items-center'}>
         <div className="text-start">
@@ -74,7 +80,24 @@ const Dashboard = () => {
       <section id="visimisi" className={'w-screen h-[982px] bg-[url(http://localhost:3000/background-hijau.png)] bg-cover bg-center items-center flex flex-row justify-between'}>
         <div className="w-[606px] ml-[50px] my-[154px]">
           <h2 className="text-[44px] text-start mb-[28px] font-semibold font-poppins text-yellow">Visi dan Misi Desa Sumber Ngepoh</h2>
-          <button className="w-full bg-yellow rounded-full mb-[54px]">BUTTON TOGGLE</button>
+          
+          {/* <button className="w-full bg-yellow rounded-full mb-[54px]">BUTTON TOGGLE</button> */}
+
+          {/* <div className="form-box mb-[54px] ">
+            <div className="button-box relative rounded-[30px] w-[220px] m-[35px] bg-white">
+              <div className="btn absolute w-[110px] bg-yellow rounded-[30px]">
+                <button type="button" className="toggle-btn relative py-[10px] px-[40px] bg-transparent text-center">Left</button>
+                <button type="button" className="toggle-btn relative py-[10px] px-[40px] bg-transparent text-center">Right</button>
+              </div>
+            </div>
+          </div> */}
+
+          {/* Kalau dipilih bg-yellow, text-white kalo ngga bg-cream, text-green */}
+          <div className="w-full mb-[54px] flex justify-around">
+            <button className="w-2/5 bg-yellow rounded-full py-[12px] text-center text-[24px] font-medium font-poppins text-white">Visi</button>
+            <button className="w-2/5 bg-cream rounded-full py-[12px] text-center text-[24px] font-medium font-poppins text-green">Misi</button>
+
+          </div>
 
           <p className="text-[24px] text-justify font-medium font-poppins text-cream">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
         </div>

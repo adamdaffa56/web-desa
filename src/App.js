@@ -12,7 +12,13 @@ import InformasiDetail from "./page/Informasi/Informasi";
 import UmkmDetail from "./page/UMKM/UMKM";
 import WisataDetail from "./page/Wisata/Wisata";
 
-import InformasiDesa from './page/admin/InformasiDesa';
+import InformasiDesa from './page/admin/InformasiDesaAdmin';
+import UMKMAdmin from './page/admin/UMKM/UMKMAdmin';
+import UpdateUMKM from './page/admin/UMKM/UpdateUMKM';
+import InformasiKegiatanAdmin from "./page/admin/Informasi Kegiatan/InformasiKegiatanAdmin";
+import WisataAdmin from "./page/admin/Wisata/WisataAdmin";
+
+
 
 
 
@@ -20,7 +26,7 @@ function App() {
   return (
     <div className='App'>
       <Routes>
-        <Route path="/" element={<UMKMList />}>
+        <Route path="/" element={<Dashboard />}>
           <Route index element={<Dashboard/>} />
           <Route path="login" element={<Login />} />
           <Route path="informasi" element={<InformasiList />}/>
@@ -32,8 +38,13 @@ function App() {
           <Route path="wisataDetail" element={<WisataDetail/>}/>
         </Route>
 
-        <Route path="/admin" element={<InformasiDesa/>}>
+        <Route path="/admin" element={<UMKMAdmin/>}>
           <Route index element={<InformasiDesa/>} />
+          <Route path="umkm" element={<UMKMAdmin/>} />
+          <Route path='update-umkm' element={<UpdateUMKM/>}/>
+          <Route path="informasi-kegiatan" element={<InformasiKegiatanAdmin/>} />
+          <Route path="wisata" element={<WisataAdmin/>}/>
+
         </Route>
       </Routes>
     </div>
