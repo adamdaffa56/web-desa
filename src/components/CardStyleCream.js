@@ -9,7 +9,7 @@ function CardStyleCream(){
                     class="hover:scale-125"
                     src={gambarContent}
                 />
-                <Icon icon="iconamoon:trash-fill" width="24" className="text-cream absolute top-2 left-4 translate-y-3 bg-green rounded-full w-[30px] h-[30px] p-[4px] hover:scale-125"/>
+                <Icon icon="iconamoon:trash-fill" width="24" className="text-cream absolute top-2 left-4 translate-y-3 bg-green rounded-full w-[36px] h-[36px] p-[4px] hover:scale-125"/>
 
             </picture>
 
