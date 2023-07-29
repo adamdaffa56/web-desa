@@ -1,8 +1,7 @@
 import gambar from "../assets/fiave-italy 1.png";
 import gambarContent from "../assets/Rectangle 3.png";
 
-import logo from "../assets/logo malang.png";
-
+import Navbar from "../components/Navbar";
 import FooterHijau from "../components/FooterHijau";
 
 const Dashboard = () => {
@@ -45,9 +44,8 @@ const Dashboard = () => {
 
     return(
     <div className=''>
-      <nav>
-        
-      </nav>
+      {/* Navbar */}
+      <Navbar/>
 
       {/* Hero */}
       <section id="home" className={'h-screen w-screen bg-[url(http://localhost:3000/hero.png)] bg-cover bg-center flex w-full items-center'}>

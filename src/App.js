@@ -20,13 +20,11 @@ import WisataAdmin from "./page/admin/Wisata/WisataAdmin";
 
 
 
-
-
 function App() {
   return (
     <div className='App'>
       <Routes>
-        <Route path="/" element={<Dashboard />}>
+        <Route path="/" element={<InformasiDetail />}>
           <Route index element={<Dashboard/>} />
           <Route path="login" element={<Login />} />
           <Route path="informasi" element={<InformasiList />}/>
@@ -38,7 +36,7 @@ function App() {
           <Route path="wisataDetail" element={<WisataDetail/>}/>
         </Route>
 
-        <Route path="/admin" element={<UMKMAdmin/>}>
+        <Route path="/admin" element={<InformasiDesa/>}>
           <Route index element={<InformasiDesa/>} />
           <Route path="umkm" element={<UMKMAdmin/>} />
           <Route path='update-umkm' element={<UpdateUMKM/>}/>

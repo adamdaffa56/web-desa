@@ -1,5 +1,6 @@
 import textBorder from "../../assets/text border 1.png";
 import Footer from "../../components/Footer";
+import Navbar from "../../components/Navbar";
 
 import gambarContent from "../../assets/Rectangle 3.png"
 
@@ -25,6 +26,9 @@ const UMKMList = () =>{
 
     return(
         <div className="flex flex-col">
+            {/* Navbar */}
+            <Navbar/>
+            
             {/* Judul */}
             <section id="judul" className={'w-screen h-[330px] bg-[url(http://localhost:3000/background-putih.png)] bg-cover bg-center items-center flex flex-col justify-center'}>
                 <h1 className="font-semibold text-[44px] text-green font-poppins">U M K M</h1>

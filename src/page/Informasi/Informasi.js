@@ -1,9 +1,13 @@
 import gambarInformasi from "../../assets/Frame 3.png"
 import Footer from "../../components/Footer";
+import Navbar from "../../components/Navbar";
 
 const Informasi = () => {
     return(
         <div className="flex flex-col">
+            {/* Navbar */}
+            <Navbar/>
+            
             {/* Hero */}
             <img src={gambarInformasi} className="w-screen bg-cover bg-center drop-shadow-lg"/>
             

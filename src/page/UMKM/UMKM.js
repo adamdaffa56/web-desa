@@ -1,9 +1,14 @@
 import gambarUMKM from "../../assets/umkm.png"
 import Footer from "../../components/Footer";
 
+import Navbar from "../../components/Navbar";
+
 const UMKM = () => {
     return(
         <div className="flex flex-col">
+            {/* Navbar */}
+            <Navbar/>
+
             {/* Hero */}
             <img src={gambarUMKM} className="w-screen bg-cover bg-center drop-shadow-lg"/>
             

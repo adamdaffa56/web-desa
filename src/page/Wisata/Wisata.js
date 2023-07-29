@@ -1,9 +1,14 @@
 import gambarWisata from "../../assets/wisata.png"
 import Footer from "../../components/Footer";
 
+import Navbar from "../../components/Navbar";
+
 const Wisata = () =>{
     return(
         <div className="flex flex-col">
+            {/* Navbar */}
+            <Navbar/>
+            
             {/* Hero */}
             <img src={gambarWisata} className="w-screen bg-cover bg-center drop-shadow-lg"/>
             

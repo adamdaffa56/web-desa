@@ -1,4 +1,4 @@
-import CardStyleCream from "../../../components/CardStyleCream";
+import CardStyleCream from "../../../components/CardStyleCreamAdmin";
 
 const UMKMAdmin = () =>{
     return (
