@@ -6,7 +6,7 @@ function Navbar(){
         <div className={'container w-screen mx-auto bg-[url(http://localhost:3000/background-hijau.png)] bg-cover bg-center flex flex-row justify-around py-[12px]'}>
           {/* Logo */}
           <div className="sm:flex justify-around">
-            <a href="" className="flex flex-row  items-center gap-[12px] w-[150px]">
+            <a href="" className="flex flex-row  items-center gap-[12px]">
               <img src={logoMalang} className="h-[40px]"/>
               <p className="text-start font-normal font-poppins text-cream text-[14px]">Desa Sumber Ngepoh</p>
             </a>
